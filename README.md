@@ -1,9 +1,12 @@
 # Data Structues
 
-data-structures and commonly used algoriths written in plain javascript, for eg Lists,stacks,queue etc.
+data-structures and commonly used algorithms written in plain javascript, for eg Lists,stacks,queue etc.
 ## Getting Started With List
 ### How To Import
 #### const {List} = require('ds-structures');
+#### or const dsStructures = require('ds-structures');
+##### const list = dsStructures.List
+##### const stack = dsStructures.Stack
 
 ```
 List Examples
