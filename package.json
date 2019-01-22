@@ -1,0 +1,23 @@
+{
+  "name": "ds-structures",
+  "version": "0.0.5",
+  "description": "It is a javascript library which contains almost all the data structures and algorithms.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "private": false,
+  "keywords": [
+    "javascript",
+    "data",
+    "structures",
+    "algorithms",
+    "lists",
+    "stacks",
+    "queues",
+    "list",
+    "electron"
+  ],
+  "author": "Anwar-ul-haq",
+  "license": "MIT"
+}
