@@ -98,3 +98,4 @@ Stack Examples
 ### extend the size of stack
 	stack.extend(your_new_stack_size)
 ```
+# Ds-structures
