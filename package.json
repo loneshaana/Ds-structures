@@ -1,10 +1,14 @@
 {
   "name": "ds-structures",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "It is a javascript library which contains almost all the data structures and algorithms.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository":{
+    "type":"github",
+    "url":"https://github.com/loneshaana/Ds-structures"
   },
   "private": false,
   "keywords": [
