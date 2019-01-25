@@ -1,0 +1,11 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var tslib_1 = require("tslib");
+var index_1 = tslib_1.__importDefault(require("./lists/index"));
+exports.List = index_1.default;
+var index_2 = tslib_1.__importDefault(require("./queues/index"));
+exports.Queue = index_2.default;
+var index_3 = tslib_1.__importDefault(require("./linkedLists/index"));
+exports.LinkList = index_3.default;
+var index_4 = tslib_1.__importDefault(require("./stacks/index"));
+exports.Stack = index_4.default;

@@ -1,7 +1,7 @@
 # Data Structues
 
 data-structures and commonly used algorithms written in plain javascript, for eg Lists,stacks,queue etc.
-### Upcoming features Priority Queue, LinkedLists, Trees,Trie(ds),Sorting Alogorithms,Searching Algorithms, Path Algorithms,Matrics...
+### Upcoming features Priority Queue, Trees,Trie(ds),Sorting Alogorithms,Searching Algorithms, Path Algorithms,Matrics...
 ## Getting Started With List
 ### How To Import
 #### const {List} = require('ds-structures');
@@ -118,3 +118,43 @@ Stack Examples
 
 ### Get the queue size
 	queue.size // returns the size of queue
+
+```
+Linked List Examples
+```
+## Getting Started With The LinkedList
+### const {LinkList} = require('ds-structure');
+#### const myLinkList = new LinkList();
+
+<!-- 
+	LinkList Contains 
+	1.setNext(data) creates node having the data as value and inserts in the linkedList
+	2.traverse traverses the linkedList and returns the array of linkList data;
+	3.getHead property returns the head node
+	4.getTail property returns the tail node
+	5.insertAt(index,data) inserts  the data at the particular index in the linkList
+	6.deleteAt(index) deletes the node at that index
+ -->
+
+### Set NextNode
+	myLinkList.setNext(10) // create the node having 10 as value and inserts in the linkList
+
+### traverse the linkList
+	myLinkList.traverse() // traverses the linkList and returns the list of linkList data
+
+### get the head node
+	myLinkList.getHead // returns the head node
+	myLinkList.getHead.getData()  // data at the head node
+	myLinkList.getHead.setData(data) // sets the data at the head Node having value of 10
+
+### get the tail node
+	myLinkList.getTail // returns the tail of the linkList
+	myLinkList.getTail.getData() // returns the data at the tail node
+	myLinkList.getTail.setData(data) // sets the data at the tail node
+
+### insert the data at a particular node
+	myLinkList.insertAt(index,data) // inserts the data at the given index and pushes back the previous data at that node
+
+## delete the node at the particular index
+	myLinkList.deleteAt(index) // removes the node at that index
+
