@@ -3,11 +3,12 @@
 data-structures and commonly used algorithms written in plain javascript, for eg Lists,stacks,queue etc.
 ### Upcoming features Priority Queue, Trees,Trie(ds),Sorting Alogorithms,Searching Algorithms, Path Algorithms,Matrics...
 ## Getting Started With List
-### How To Import
-#### const {List} = require('ds-structures');
-#### or const dsStructures = require('ds-structures');
-##### const list = dsStructures.List
-##### const stack = dsStructures.Stack
+
+### How To Import for versions less than 0.0.7
+#### const {List,Queue,Stack} = require('ds-structures');
+
+### importing in versions greater than 0.0.6
+#### const {List,Stack,LinkList,Queue} from 'ds-structures/compiled';
 
 ```
 List Examples

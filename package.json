@@ -1,6 +1,6 @@
 {
   "name": "ds-structures",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "It is a javascript library which contains almost all the data structures and algorithms.",
   "main": "./index.js",
   "scripts": {
