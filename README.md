@@ -145,7 +145,7 @@ Linked List Examples
 ### get the head node
 	myLinkList.getHead // returns the head node
 	myLinkList.getHead.getData()  // data at the head node
-	myLinkList.getHead.setData(data) // sets the data at the head Node having value of 10
+	myLinkList.getHead.setData(data) // sets the data at the head Node
 
 ### get the tail node
 	myLinkList.getTail // returns the tail of the linkList
